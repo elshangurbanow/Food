@@ -5,7 +5,24 @@ header
     nav
         a
             font-size: 20px
-            color:#8c8999
+            color: #8c8999
             margin-right: 30px
         .home-color
             color: #74bebc
+    .btn
+        display: none
+    @media screen and ( max-width: 991px )
+        .menu
+            display: flex
+            justify-content: space-between 
+            width: 100%
+            .imgbox
+                width: 40px
+            nav
+                display: none
+            .btn
+                width: 40px
+                background: grey
+                border: 1px solid #9f1212
+                .icon
+                    color: #000000 

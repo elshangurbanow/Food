@@ -15,6 +15,9 @@ section {
 }
 
 header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px 0;
 }
 header .menu .imgbox {
@@ -33,6 +36,8 @@ header .menu .btn {
 }
 @media screen and (max-width: 991px) {
   header .menu {
+    display: block;
+    text-align: center;
     width: 100%;
   }
   header .menu .imgbox {
@@ -43,6 +48,12 @@ header .menu .btn {
   }
   header .menu .btn {
     background-color: #655f5f;
+  }
+  header .menu .btn h2 {
+    color: red;
+  }
+  header .menu .btn .icon {
+    width: 10px;
   }
   header .menu .btn .icon i {
     color: #000000;

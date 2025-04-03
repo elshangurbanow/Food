@@ -14,27 +14,25 @@ section {
   padding: 80px 0;
 }
 
-header {
+header .menu {
   padding: 20px 0;
 }
-header .imgbox {
+header .menu .imgbox {
   width: 40px;
 }
-header nav a {
+header .menu nav a {
   font-size: 20px;
   color: #8c8999;
   margin-right: 30px;
 }
-header nav .home-color {
+header .menu nav .home-color {
   color: #74bebc;
 }
-header .btn {
+header .menu .btn {
   display: none;
 }
 @media screen and (max-width: 991px) {
   header .menu {
-    display: flex;
-    justify-content: space-between;
     width: 100%;
   }
   header .menu .imgbox {
@@ -44,11 +42,9 @@ header .btn {
     display: none;
   }
   header .menu .btn {
-    width: 40px;
-    background: grey;
-    border: 1px solid #9f1212;
+    background-color: #655f5f;
   }
-  header .menu .btn .icon {
+  header .menu .btn .icon i {
     color: #000000;
   }
 }
@@ -84,7 +80,6 @@ header .btn {
 #beautiful .box h4 {
   font-size: 20px;
 }
-
 #thehome {
   background-color: #f1f8f9;
 }

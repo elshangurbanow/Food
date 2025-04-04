@@ -36,7 +36,7 @@ header .menu .btn {
 }
 @media screen and (max-width: 991px) {
   header .menu {
-    display: block;
+    display: inline-block;
     text-align: center;
     width: 100%;
   }
@@ -84,13 +84,29 @@ header .menu .btn {
   background-color: #38b6c1;
   color: white;
 }
-#beautiful .box .imgbox {
+#beautiful .box .minibox .imgbox {
   width: 120px;
   margin: 20px 0 10px;
 }
 #beautiful .box h4 {
   font-size: 20px;
 }
+@media screen and (max-width: 991px) {
+  #beautiful .box .textbox {
+    text-align: center;
+  }
+  #beautiful .box .textbox h1 {
+    font-size: 75px;
+  }
+  #beautiful .box .textbox .minibox {
+    display: flex;
+    justify-content: center;
+  }
+  #beautiful .box .textbox h4 {
+    text-align: center;
+  }
+}
+
 #thehome {
   background-color: #f1f8f9;
 }

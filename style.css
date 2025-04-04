@@ -46,11 +46,10 @@ header .menu .btn {
     margin-right: 5px;
     padding: 7px 10px;
     background-color: #d4caca;
+    color: #5a5959;
   }
   header .menu .btn .bgc {
     display: none;
-    background-color: #36b3bd;
-    color: white;
   }
 }
 @media screen and (max-width: 375px) {
@@ -64,8 +63,10 @@ header .menu .btn {
     margin-right: 5px;
     padding: 7px 10px;
     background-color: #d4caca;
+    color: #5a5959;
   }
   header .menu .btn .bgc {
+    display: block;
     background-color: #36b3bd;
     color: white;
   }
@@ -117,6 +118,11 @@ header .menu .btn {
   #beautiful .imgbox {
     width: 600px;
     margin-left: 60px;
+  }
+}
+@media screen and (max-width: 374px) {
+  #beautiful .box .textbox h1 {
+    font-size: 43px;
   }
 }
 

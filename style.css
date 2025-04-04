@@ -121,8 +121,17 @@ header .menu .btn {
   }
 }
 @media screen and (max-width: 374px) {
+  #beautiful .box .textbox {
+    text-align: center;
+  }
   #beautiful .box .textbox h1 {
     font-size: 43px;
+  }
+  #beautiful .box .textbox h5 {
+    font-size: 20px;
+  }
+  #beautiful .imgbox {
+    display: none;
   }
 }
 

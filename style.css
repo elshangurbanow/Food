@@ -53,6 +53,23 @@ header .menu .btn {
     color: white;
   }
 }
+@media screen and (max-width: 374px) {
+  header .menu .nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+  }
+  header .menu .btn .icon {
+    margin-right: 5px;
+    padding: 7px 10px;
+    background-color: #d4caca;
+  }
+  header .menu .btn .bgc {
+    background-color: #36b3bd;
+    color: white;
+  }
+}
 
 #beautiful {
   background-color: #f4fafb;

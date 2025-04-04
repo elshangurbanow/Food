@@ -19,6 +19,7 @@ header .menu {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
+  width: 100%;
 }
 header .menu .imgbox {
   width: 40px;
@@ -35,28 +36,21 @@ header .menu .btn {
   display: none;
 }
 @media screen and (max-width: 991px) {
-  header .menu {
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-  }
-  header .menu .imgbox {
-    width: 40px;
-  }
   header .menu nav {
     display: none;
   }
   header .menu .btn {
-    background-color: #655f5f;
-  }
-  header .menu .btn h2 {
-    color: red;
+    display: flex;
   }
   header .menu .btn .icon {
-    width: 10px;
+    margin-right: 5px;
+    padding: 7px 10px;
+    background-color: #d4caca;
   }
-  header .menu .btn .icon i {
-    color: #000000;
+  header .menu .btn .bgc {
+    display: none;
+    background-color: #36b3bd;
+    color: white;
   }
 }
 

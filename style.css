@@ -264,6 +264,9 @@ header .menu .btn {
   }
 }
 
+#browse {
+  background-color: #f5fbfc;
+}
 #browse .textbox {
   width: 500px;
   text-align: center;
@@ -295,7 +298,9 @@ header .menu .btn {
   color: white;
 }
 #browse .box {
+  background-color: #ffffff;
   padding: 30px;
+  margin: 0 0 10px 0;
 }
 #browse .box .imgbox {
   width: 150px;
@@ -336,6 +341,38 @@ header .menu .btn {
 #browse .big {
   padding: 17px 53px;
   margin-top: 50px;
+}
+@media screen and (max-width: 991px) {
+  #browse .textbox {
+    width: 550px;
+  }
+  #browse .textbox h1 {
+    font-size: 72px;
+  }
+  #browse .textbox h4 {
+    font-size: 23px;
+  }
+  #browse .box {
+    width: 1000px;
+    padding: 40px 0 40px 0;
+    margin: 0 90px 10px 0;
+  }
+  #browse .box .imgbox {
+    width: 170px;
+  }
+  #browse .box .textbox {
+    width: 1000px;
+    margin-left: 20px;
+  }
+  #browse .box .textbox .minibox h2 {
+    font-size: 25px;
+  }
+  #browse .box .textbox .minibox h5 {
+    font-size: 22px;
+  }
+  #browse .box .textbox p {
+    font-size: 22px;
+  }
 }
 
 #order .imgbox {

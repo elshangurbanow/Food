@@ -1,4 +1,5 @@
 #browse
+    background-color: #f5fbfc
     .textbox
         width: 500px
         text-align: center
@@ -18,13 +19,15 @@
         font-size: 18px
         border: 0.5px solid #bdbdbd
         padding: 15px 46px
-        margin: 0 20px 
+        margin: 0 20px
         border-radius: 5px
     .bgc
-        background-color: #3cc1d8   
+        background-color: #3cc1d8
         color: #ffff
     .box
+        background-color: #ffffff
         padding: 30px
+        margin: 0 0 10px 0
         .imgbox
             width: 150px
             border-radius: 10px
@@ -57,3 +60,26 @@
     .big
         padding: 17px 53px
         margin-top: 50px
+    @media screen and ( max-width: 991px )
+        .textbox
+            width: 550px
+            h1
+                font-size: 72px
+            h4
+                font-size: 23px
+        .box
+            width: 1000px
+            padding: 40px 0 40px 0
+            margin: 0 90px 10px 0
+            .imgbox
+                width: 170px
+            .textbox
+                width: 1000px
+                margin-left: 20px
+                .minibox
+                    h2
+                        font-size: 25px
+                    h5
+                        font-size: 22px
+                p
+                    font-size: 22px

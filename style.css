@@ -447,6 +447,22 @@ header .menu .btn {
   padding: 13px 34px;
   border-radius: 5px;
 }
+@media screen and (max-width: 991px) {
+  #order .imgbox {
+    width: 900px;
+  }
+  #order .textbox {
+    text-align: center;
+    padding: 0 97px;
+  }
+  #order .textbox h1 {
+    font-size: 65px;
+  }
+  #order .textbox h5 {
+    font-size: 25px;
+    margin: 0 0;
+  }
+}
 
 #callour {
   background-color: #f1f8f9;

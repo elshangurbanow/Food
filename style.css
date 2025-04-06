@@ -460,7 +460,24 @@ header .menu .btn {
   }
   #order .textbox h5 {
     font-size: 25px;
-    margin: 0 0;
+    margin: 20px 0 40px 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  #order .imgbox {
+    width: 350px;
+  }
+  #order .textbox {
+    padding: 0 10px;
+  }
+  #order .textbox h1 {
+    font-size: 50px;
+  }
+  #order .textbox h5 {
+    font-size: 20px;
+  }
+  #order .textbox .btn {
+    padding: 12px 55px;
   }
 }
 

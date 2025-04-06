@@ -391,6 +391,20 @@ header .menu .btn {
   #browse .flexbtn .btn {
     margin-bottom: 10px;
   }
+  #browse .iphone {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    padding: 0 0;
+    margin: 10px;
+  }
+  #browse .iphone .imgbox {
+    width: 300px;
+    height: 300px;
+  }
+  #browse .iphone .textbox {
+    width: 360px;
+  }
 }
 
 #order .imgbox {

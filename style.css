@@ -323,7 +323,7 @@ header .menu .btn {
   margin: 15px 0;
   font-size: 18px;
   line-height: 1.2;
-  color: rgba(35, 47, 66, 0.5215686275);
+  color: #474d56;
 }
 #browse .box .textbox .add {
   display: flex;
@@ -389,21 +389,40 @@ header .menu .btn {
     flex-direction: column;
   }
   #browse .flexbtn .btn {
-    margin-bottom: 10px;
+    margin: 0 0 10px 0;
   }
   #browse .iphone {
     display: flex;
     flex-direction: column;
-    width: 380px;
-    padding: 0 0;
+  }
+  #browse .bgc {
+    background-color: #3cc1d8;
+    color: white;
+  }
+  #browse .box {
+    width: 350px;
+    padding: 10px;
     margin: 10px;
   }
-  #browse .iphone .imgbox {
-    width: 300px;
-    height: 300px;
+  #browse .box .imgbox {
+    width: 320px;
+    height: auto;
   }
-  #browse .iphone .textbox {
-    width: 360px;
+  #browse .box .textbox {
+    width: 300px;
+    padding: 0 0 0 0;
+    margin: 0 25px 0 0;
+  }
+  #browse .box .textbox .minibox {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .box .textbox .minibox h2 {
+    margin: 10px 0;
+  }
+  #browse .big {
+    padding: 17px 60px;
+    margin: 0 0;
   }
 }
 

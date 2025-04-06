@@ -353,16 +353,16 @@ header .menu .btn {
     font-size: 23px;
   }
   #browse .box {
-    width: 1000px;
-    padding: 40px 0 40px 0;
     margin: 0 90px 10px 0;
+    width: 1000px;
   }
   #browse .box .imgbox {
     width: 170px;
   }
   #browse .box .textbox {
     width: 1000px;
-    margin-left: 20px;
+    padding: 0 0 0 30px;
+    margin: 0 40px 0 0;
   }
   #browse .box .textbox .minibox h2 {
     font-size: 25px;
@@ -374,7 +374,6 @@ header .menu .btn {
     font-size: 22px;
   }
 }
-
 #order .imgbox {
   width: 600px;
 }

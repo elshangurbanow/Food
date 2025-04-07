@@ -450,10 +450,12 @@ header .menu .btn {
 @media screen and (max-width: 991px) {
   #order .imgbox {
     width: 900px;
+    margin-right: 90px;
   }
   #order .textbox {
     text-align: center;
     padding: 0 97px;
+    margin-top: 60px;
   }
   #order .textbox h1 {
     font-size: 65px;
@@ -465,7 +467,8 @@ header .menu .btn {
 }
 @media screen and (max-width: 375px) {
   #order .imgbox {
-    width: 350px;
+    width: 300px;
+    margin-left: 30px;
   }
   #order .textbox {
     padding: 0 10px;
@@ -503,6 +506,43 @@ header .menu .btn {
 }
 #callour .imgbox {
   width: 520px;
+}
+@media screen and (max-width: 991px) {
+  #callour .textbox {
+    text-align: center;
+    padding: 0 70px;
+    margin: 20px 0 60px 0;
+  }
+  #callour .textbox h1 {
+    font-size: 65px;
+  }
+  #callour .textbox h5 {
+    margin: 20px 40px 35px 40px;
+    line-height: 1.4;
+  }
+  #callour .imgbox {
+    width: 450px;
+    margin-left: 90px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #callour .textbox {
+    padding: 0 10px;
+  }
+  #callour .textbox h1 {
+    font-size: 55px;
+  }
+  #callour .textbox h5 {
+    font-size: 20px;
+    margin: 20px 0 45px 0;
+  }
+  #callour .textbox .btn {
+    padding: 13px 45px;
+  }
+  #callour .imgbox {
+    width: 350px;
+    margin: 0 0;
+  }
 }
 
 #support .textbox h1 {

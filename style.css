@@ -564,4 +564,12 @@ header .menu .btn {
 }
 #support .bgc {
   background-color: #35b6c1;
+}
+@media screen and (max-width: 991px) {
+  #support .box2 {
+    width: 900px;
+    height: 400px;
+    background-color: #35b6c1;
+    margin: 10px 0 0 10px;
+  }
 }/*# sourceMappingURL=style.css.map */

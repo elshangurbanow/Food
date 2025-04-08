@@ -376,7 +376,6 @@ header .menu .btn {
 }
 @media screen and (max-width: 767px) {
   #browse .flexbtn {
-    width: 700px;
     flex-flow: wrap;
   }
   #browse .flexbtn .btn {
@@ -389,12 +388,15 @@ header .menu .btn {
   }
   #browse .box {
     width: 300px;
+    padding: 0 0;
   }
   #browse .box .imgbox {
     width: 200px;
   }
   #browse .box .textbox {
     width: 200px;
+    padding: 0 0;
+    margin: 0 0;
   }
 }
 @media screen and (max-width: 375px) {

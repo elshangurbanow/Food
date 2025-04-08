@@ -374,6 +374,29 @@ header .menu .btn {
     font-size: 17px;
   }
 }
+@media screen and (max-width: 767px) {
+  #browse .flexbtn {
+    width: 700px;
+    flex-flow: wrap;
+  }
+  #browse .flexbtn .btn {
+    padding: 15px 85px;
+    margin: 10px 20px 0 20px;
+  }
+  #browse .iphone {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .box {
+    width: 270px;
+  }
+  #browse .box .imgbox {
+    width: 250px;
+  }
+  #browse .box .textbox {
+    width: 230px;
+  }
+}
 @media screen and (max-width: 375px) {
   #browse .textbox {
     width: 260px;

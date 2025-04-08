@@ -578,7 +578,7 @@ header .menu .btn {
     margin: 10px 0 0 10px;
   }
   #support .textbox h1 {
-    font-size: 60px;
+    font-size: 50px;
     padding: 0 100px 0 0;
     margin: 0 100px 0 10px;
   }
@@ -588,16 +588,19 @@ header .menu .btn {
 }
 @media screen and (max-width: 375px) {
   #support .imgbox {
-    width: 360px;
+    width: 370px;
     height: 280px;
-    margin-bottom: 10px;
   }
   #support .box2 {
     width: 400px;
+    margin: 0 0 0 10px;
   }
   #support .textbox h1 {
     font-size: 50px;
     padding: 10px;
     margin: 0 0;
+  }
+  #support .textbox .btn {
+    padding: 14px 55px;
   }
 }/*# sourceMappingURL=style.css.map */

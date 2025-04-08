@@ -388,13 +388,13 @@ header .menu .btn {
     flex-direction: column;
   }
   #browse .box {
-    width: 270px;
+    width: 300px;
   }
   #browse .box .imgbox {
-    width: 250px;
+    width: 200px;
   }
   #browse .box .textbox {
-    width: 230px;
+    width: 200px;
   }
 }
 @media screen and (max-width: 375px) {

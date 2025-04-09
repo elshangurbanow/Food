@@ -323,7 +323,7 @@ header .menu .btn {
   margin: 15px 0;
   font-size: 18px;
   line-height: 1.2;
-  color: #474d56;
+  color: #6c7077;
 }
 #browse .box .textbox .add {
   display: flex;
@@ -407,6 +407,34 @@ header .menu .btn {
   }
   #browse .box .textbox p {
     margin: 10px 0 25px 0;
+  }
+}
+@media screen and (max-width: 479px) {
+  #browse .textbox h1 {
+    font-size: 60px;
+  }
+  #browse .textbox h4 {
+    margin: 15px 0 25px 0;
+  }
+  #browse .flexbtn {
+    display: flex;
+    flex-direction: column;
+  }
+  #browse .flexbtn .btn {
+    margin: 0 0 5px 0;
+  }
+  #browse .box {
+    width: 450px;
+  }
+  #browse .box .imgbox {
+    width: 420px;
+  }
+  #browse .box .textbox {
+    width: 420px;
+  }
+  #browse .box .add .btn {
+    padding: 10px 15px;
+    margin: 0 5px;
   }
 }
 @media screen and (max-width: 375px) {

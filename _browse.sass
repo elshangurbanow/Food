@@ -46,7 +46,7 @@
                 margin: 15px 0
                 font-size: 18px
                 line-height: 1.2
-                color: #474d56
+                color: #6c7077
             .add
                 display: flex
                 input
@@ -108,8 +108,27 @@
                         margin: 15px 0 10px 0
                 p
                     margin: 10px 0 25px 0
-                    .btn
-
+    @media screen and ( max-width: 479px )
+        .textbox
+            h1
+                font-size: 60px
+            h4
+                margin: 15px 0 25px 0
+        .flexbtn
+            display: flex
+            flex-direction: column
+            .btn
+                margin: 0 0 5px 0
+        .box
+            width: 450px
+            .imgbox
+                width: 420px
+            .textbox
+                width: 420px
+            .add
+                .btn
+                    padding: 10px 15px
+                    margin: 0 5px  
     @media screen and ( max-width: 375px )
         .textbox
             width: 260px

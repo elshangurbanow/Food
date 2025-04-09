@@ -388,15 +388,25 @@ header .menu .btn {
   }
   #browse .box {
     width: 300px;
-    padding: 0 0;
+    padding: 5px;
+    margin: 0 0 0 0;
   }
   #browse .box .imgbox {
-    width: 200px;
+    width: 250px;
   }
   #browse .box .textbox {
-    width: 200px;
-    padding: 0 0;
-    margin: 0 0;
+    width: 250px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+  }
+  #browse .box .textbox .minibox {
+    flex-direction: column;
+  }
+  #browse .box .textbox .minibox h2 {
+    margin: 15px 0 10px 0;
+  }
+  #browse .box .textbox p {
+    margin: 10px 0 25px 0;
   }
 }
 @media screen and (max-width: 375px) {

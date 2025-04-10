@@ -95,21 +95,35 @@
             display: flex
             flex-direction: column
         .box
-            width: 300px
-            padding: 5px
+            width: 270px
+            padding: 15px
             margin: 0 0 0 0
             .imgbox
-                width: 250px
+                width: 240px
             .textbox
-                width: 250px
+                width: 230px
                 padding: 0 0 0 0
                 margin: 0 0 0 0
                 .minibox
                     flex-direction: column
                     h2
+                        font-size: 19px
                         margin: 15px 0 10px 0
                 p
+                    font-size: 15px
                     margin: 10px 0 25px 0
+                .add
+                    display: flex
+                    input
+                        border: 1px solid #e1e1e1
+                        background-color: #e9e9e9
+                        width: 50px
+                    .btn
+                        background-color: #35b9be
+                        color: #ffff
+                        padding: 9px 17px
+                        font-size: 15px
+                        border-radius: 7px
     @media screen and ( max-width: 479px )
         .textbox
             h1
@@ -130,8 +144,10 @@
                 width: 420px
             .add
                 .btn
-                    padding: 10px 15px
+                    padding: 9px 17px
                     margin: 0 5px
+        .big
+            padding: 15px 58px
     @media screen and ( max-width: 375px )
         .textbox
             width: 280px

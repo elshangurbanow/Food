@@ -123,15 +123,22 @@ header .menu .btn {
 @media screen and (max-width: 375px) {
   #beautiful .box .textbox {
     text-align: center;
+    margin: 0 0 60px 0;
   }
   #beautiful .box .textbox h1 {
-    font-size: 43px;
+    font-size: 55px;
+    margin: 0 0;
   }
   #beautiful .box .textbox h5 {
-    font-size: 17px;
+    font-size: 20px;
+    margin: 20px 0 40px 0;
+  }
+  #beautiful .box .textbox h4 {
+    font-size: 13px;
   }
   #beautiful .imgbox {
-    width: 250px;
+    width: 300px;
+    margin: 0 0 0 15px;
   }
 }
 
@@ -182,16 +189,15 @@ header .menu .btn {
   }
 }
 @media screen and (max-width: 375px) {
-  #thehome .textbox {
-    width: 100%;
-  }
   #thehome .textbox h1 {
     font-size: 50px;
-    margin: 0 0 20px 0;
+    width: 350px;
+    margin: 0 0;
   }
   #thehome .textbox h5 {
-    margin: 0 0 10px 0;
-    width: 380px;
+    font-size: 18px;
+    margin: 15px 0 35px 30px;
+    width: 300px;
   }
   #thehome .textbox .btn {
     margin: 0 0;
@@ -243,7 +249,7 @@ header .menu .btn {
 }
 @media screen and (max-width: 375px) {
   #works h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
   #works .box {
     margin: 0;
@@ -254,7 +260,7 @@ header .menu .btn {
   }
   #works .box .textbox {
     width: 240px;
-    margin: 0 0 0 50px;
+    margin: 0 0 0 65px;
   }
   #works .box .textbox h2 {
     font-size: 23px;
@@ -274,7 +280,7 @@ header .menu .btn {
 #browse .textbox h1 {
   font-weight: 700;
   font-size: 60px;
-  color: #3cc1d8;
+  color: #35b9be;
 }
 #browse .textbox h4 {
   font-size: 20px;
@@ -283,7 +289,7 @@ header .menu .btn {
   line-height: 1.2;
 }
 #browse .textbox h4 span {
-  color: #3cc1d8;
+  color: #35b9be;
   text-decoration-line: underline;
 }
 #browse .btn {
@@ -294,10 +300,12 @@ header .menu .btn {
   border-radius: 5px;
 }
 #browse .bgc {
-  background-color: #3cc1d8;
+  background-color: #35b9be;
   color: white;
 }
 #browse .box {
+  border: 2px solid #ebf6f6;
+  border-radius: 10px;
   background-color: #ffffff;
   padding: 30px;
   margin: 0 0 10px 0;
@@ -316,7 +324,7 @@ header .menu .btn {
   font-weight: 700;
 }
 #browse .box .textbox .minibox h5 {
-  color: #3cc1d8;
+  color: #35b9be;
   font-size: 18px;
 }
 #browse .box .textbox p {
@@ -334,7 +342,7 @@ header .menu .btn {
   width: 50px;
 }
 #browse .box .textbox .add .btn {
-  background-color: #3cc1d8;
+  background-color: #35b9be;
   color: white;
   padding: 7px 20px;
 }
@@ -440,13 +448,14 @@ header .menu .btn {
 }
 @media screen and (max-width: 375px) {
   #browse .textbox {
-    width: 260px;
+    width: 280px;
   }
   #browse .textbox h1 {
-    font-size: 45px;
+    font-size: 60px;
   }
   #browse .textbox h4 {
-    font-size: 19px;
+    font-size: 20px;
+    width: 300px;
   }
   #browse .flexbtn {
     display: flex;
@@ -460,13 +469,13 @@ header .menu .btn {
     flex-direction: column;
   }
   #browse .bgc {
-    background-color: #3cc1d8;
+    background-color: #35b9be;
     color: white;
   }
   #browse .box {
     width: 350px;
     padding: 10px;
-    margin: 10px;
+    margin: 10px 30px 10px 10px;
   }
   #browse .box .imgbox {
     width: 320px;
@@ -483,6 +492,21 @@ header .menu .btn {
   }
   #browse .box .textbox .minibox h2 {
     margin: 10px 0;
+  }
+  #browse .box .textbox .add {
+    display: flex;
+  }
+  #browse .box .textbox .add input {
+    border: 1px solid #e1e1e1;
+    background-color: #e9e9e9;
+    width: 50px;
+  }
+  #browse .box .textbox .add .btn {
+    background-color: #35b9be;
+    color: white;
+    padding: 9px 17px;
+    font-size: 15px;
+    border-radius: 7px;
   }
   #browse .big {
     padding: 17px 60px;
@@ -531,8 +555,8 @@ header .menu .btn {
 }
 @media screen and (max-width: 375px) {
   #order .imgbox {
-    width: 300px;
-    margin-left: 30px;
+    width: 400px;
+    margin: 0 20px 0 0;
   }
   #order .textbox {
     padding: 0 10px;
@@ -544,7 +568,7 @@ header .menu .btn {
     font-size: 20px;
   }
   #order .textbox .btn {
-    padding: 12px 55px;
+    padding: 12px 65px;
   }
 }
 
@@ -601,7 +625,7 @@ header .menu .btn {
     margin: 20px 0 45px 0;
   }
   #callour .textbox .btn {
-    padding: 13px 45px;
+    padding: 13px 50px;
   }
   #callour .imgbox {
     width: 350px;
@@ -667,15 +691,15 @@ header .menu .btn {
 }
 @media screen and (max-width: 375px) {
   #support .imgbox {
-    width: 370px;
-    height: 280px;
+    width: 350px;
+    height: 270px;
   }
   #support .box2 {
-    width: 400px;
-    margin: 0 0 0 10px;
+    width: 350px;
+    margin: 0 0 0 12px;
   }
   #support .textbox h1 {
-    font-size: 50px;
+    font-size: 43px;
     padding: 10px;
     margin: 0 0;
   }

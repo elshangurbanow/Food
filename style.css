@@ -247,6 +247,22 @@ header .menu .btn {
     margin: 0 0 0 40px;
   }
 }
+@media screen and (max-width: 479px) {
+  #thehome .textbox h1 {
+    margin: 0 0 0 35px;
+  }
+  #thehome .textbox h5 {
+    width: 300px;
+    margin: 20px 0 30px 80px;
+  }
+  #thehome .textbox .btn {
+    padding: 12px 50px;
+  }
+  #thehome .imgbox {
+    width: 350px;
+    margin: 0 0 0 60px;
+  }
+}
 @media screen and (max-width: 375px) {
   #thehome .textbox h1 {
     font-size: 50px;
@@ -315,6 +331,14 @@ header .menu .btn {
   }
   #works .box .textbox {
     margin: 35px 20px 0 0;
+  }
+}
+@media screen and (max-width: 479px) {
+  #works h1 {
+    font-size: 65px;
+  }
+  #works .box {
+    margin: 0 0 0 0;
   }
 }
 @media screen and (max-width: 375px) {

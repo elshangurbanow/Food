@@ -118,7 +118,53 @@ header .menu .btn {
   }
   #beautiful .imgbox {
     width: 600px;
-    margin-left: 60px;
+    margin: 0 0 0 60px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #beautiful .box .textbox {
+    margin-bottom: 40px;
+  }
+  #beautiful .box .textbox h1 {
+    font-size: 55px;
+    margin: 0 0 0 50px;
+  }
+  #beautiful .box .textbox h5 {
+    width: 450px;
+    margin: 25px 0 50px 50px;
+  }
+  #beautiful .box .btn {
+    margin: 0 0 0 40px;
+  }
+  #beautiful .box .minibox {
+    margin: 0 0 0 40px;
+  }
+  #beautiful .box .minibox .imgbox {
+    margin: 20px 0 10px;
+  }
+  #beautiful .box h4 {
+    margin: 0 0 70px 50px;
+  }
+  #beautiful .imgbox {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 479px) {
+  #beautiful .box .textbox h1 {
+    margin: 0 0 0 0;
+  }
+  #beautiful .box .textbox h5 {
+    width: 380px;
+    margin: 25px 0 50px 35px;
+  }
+  #beautiful .box .textbox .btn {
+    margin: 0 0 0 0;
+  }
+  #beautiful .box .minibox {
+    margin: 0 0;
+  }
+  #beautiful .box .minibox .imgbox {
+    margin: 0 50px 0 0;
   }
 }
 @media screen and (max-width: 375px) {
@@ -183,10 +229,15 @@ header .menu .btn {
     font-size: 22px;
   }
   #thehome .textbox .btn {
-    margin-right: 150px;
+    margin: 0 150px 0 0;
   }
   #thehome .imgbox {
     width: 600px;
+  }
+}
+@media screen and (max-width: 766px) {
+  #thehome .textbox .btn {
+    margin: 0 0 0 0;
   }
 }
 @media screen and (max-width: 375px) {

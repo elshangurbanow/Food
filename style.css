@@ -473,7 +473,7 @@ header .menu .btn {
   }
   #browse .box {
     margin: 0 5px 5px 0;
-    width: 900px;
+    width: 100%;
   }
   #browse .box .imgbox {
     width: 170px;

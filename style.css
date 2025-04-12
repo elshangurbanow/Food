@@ -53,7 +53,7 @@ header .menu .btn {
     display: none;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 391px) {
   header .menu .nav {
     display: none;
   }
@@ -167,7 +167,7 @@ header .menu .btn {
     margin: 0 50px 0 0;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 391px) {
   #beautiful .box .textbox {
     width: 350px;
     text-align: center;
@@ -270,7 +270,7 @@ header .menu .btn {
     margin: 0 0 0 60px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 391px) {
   #thehome .textbox h1 {
     font-size: 50px;
     width: 350px;
@@ -358,7 +358,7 @@ header .menu .btn {
     padding: 0 0;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 391px) {
   #works h1 {
     font-size: 55px;
   }
@@ -473,7 +473,7 @@ header .menu .btn {
   }
   #browse .box {
     margin: 0 5px 5px 0;
-    width: 100%;
+    width: 900px;
   }
   #browse .box .imgbox {
     width: 170px;
@@ -577,7 +577,7 @@ header .menu .btn {
     padding: 15px 58px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 391px) {
   #browse .textbox {
     width: 280px;
   }
@@ -707,7 +707,7 @@ header .menu .btn {
     padding: 12px 45px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 391px) {
   #order .imgbox {
     width: 400px;
     margin: 0 20px 0 0;
@@ -793,7 +793,7 @@ header .menu .btn {
     margin: 0 0 0 40px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 391px) {
   #callour .textbox {
     padding: 0 10px;
   }
@@ -879,7 +879,7 @@ header .menu .btn {
     padding: 14px 70px;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 391px) {
   #support .imgbox {
     width: 350px;
     height: 270px;

@@ -11,7 +11,7 @@ body {
 }
 
 section {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 
 header .menu {
@@ -171,7 +171,7 @@ header .menu .btn {
   #beautiful .box .textbox {
     width: 350px;
     text-align: center;
-    margin: 0 0 60px 0;
+    margin: 0 0 40px 0;
   }
   #beautiful .box .textbox h1 {
     font-size: 55px;

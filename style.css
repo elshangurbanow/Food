@@ -169,7 +169,6 @@ header .menu .btn {
 }
 @media screen and (max-width: 391px) {
   #beautiful .box .textbox {
-    width: 350px;
     text-align: center;
     margin: 0 0 40px 0;
   }
@@ -319,7 +318,6 @@ header .menu .btn {
   }
   #works .box {
     margin: 0 0 50px 40px;
-    width: 500px;
   }
   #works .box .imgbox {
     margin: 0 0 0 50px;

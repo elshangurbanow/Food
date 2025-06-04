@@ -471,7 +471,7 @@ header .menu .btn {
   }
   #browse .box {
     margin: 0 5px 5px 0;
-    width: 900px;
+    width: 850px;
   }
   #browse .box .imgbox {
     width: 170px;
@@ -707,7 +707,7 @@ header .menu .btn {
 }
 @media screen and (max-width: 391px) {
   #order .imgbox {
-    width: 400px;
+    width: 380px;
     margin: 0 20px 0 0;
   }
   #order .textbox {

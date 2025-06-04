@@ -320,12 +320,12 @@ header .menu .btn {
     margin: 0 0 50px 40px;
   }
   #works .box .imgbox {
-    margin: 0 0 0 50px;
+    margin: 0 0 0 70px;
     width: 500px;
   }
   #works .box .textbox {
-    padding: 0 0 0 0;
-    margin: 30px 0 0 70px;
+    padding: 0 80px 0 80px;
+    margin: 30px 0 0 10px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -666,7 +666,7 @@ header .menu .btn {
 }
 @media screen and (max-width: 991px) {
   #order .imgbox {
-    width: 900px;
+    width: 700px;
     margin-right: 90px;
   }
   #order .textbox {

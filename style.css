@@ -550,6 +550,19 @@ header .menu .btn {
     border-radius: 7px;
   }
 }
+@media screen and (max-width: 576px) {
+  #browse .box {
+    width: 550px;
+    margin: 0 0 20px 0;
+  }
+  #browse .box .imgbox {
+    width: 510px;
+  }
+  #browse .box .textbox {
+    width: 510px;
+    padding: 0 90px 0 0;
+  }
+}
 @media screen and (max-width: 479px) {
   #browse .textbox h1 {
     font-size: 60px;
@@ -873,6 +886,7 @@ header .menu .btn {
   #support .box2 {
     margin: 0 0 10px 12px;
     width: 391px;
+    height: auto;
   }
 }
 @media screen and (max-width: 479px) {

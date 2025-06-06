@@ -107,10 +107,13 @@ header .menu .btn {
 @media screen and (max-width: 991px) {
   #beautiful .box .textbox {
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
   }
   #beautiful .box .textbox h1 {
     font-size: 75px;
+  }
+  #beautiful .box .textbox h4 {
+    margin-bottom: 70px;
   }
   #beautiful .box .minibox {
     display: flex;
@@ -118,7 +121,7 @@ header .menu .btn {
   }
   #beautiful .imgbox {
     width: 600px;
-    margin: 0 0 0 60px;
+    margin: 0 60px 0 0;
   }
 }
 @media screen and (max-width: 767px) {
@@ -130,7 +133,7 @@ header .menu .btn {
     margin: 0 0 0 45px;
   }
   #beautiful .box .textbox h5 {
-    width: 450px;
+    width: 430px;
     margin: 25px 0 50px 50px;
   }
   #beautiful .box .btn {
@@ -146,7 +149,8 @@ header .menu .btn {
     margin: 0 0 70px 50px;
   }
   #beautiful .imgbox {
-    width: 400px;
+    width: 450px;
+    margin: 0 0 0 60px;
   }
 }
 @media screen and (max-width: 479px) {
@@ -165,6 +169,9 @@ header .menu .btn {
   }
   #beautiful .box .minibox .imgbox {
     margin: 0 50px 0 0;
+  }
+  #beautiful .imgbox {
+    width: 370px;
   }
 }
 @media screen and (max-width: 391px) {
@@ -237,6 +244,7 @@ header .menu .btn {
   }
   #thehome .imgbox {
     width: 500px;
+    margin: 0 0 0 40px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -557,13 +565,14 @@ header .menu .btn {
     margin: 0 0 5px 0;
   }
   #browse .box {
-    width: 450px;
+    width: 420px;
     margin: 5px;
   }
   #browse .box .imgbox {
-    width: 420px;
+    width: 410px;
   }
   #browse .box .textbox {
+    margin-left: 30px;
     width: 420px;
   }
   #browse .box .add .btn {
@@ -701,7 +710,7 @@ header .menu .btn {
 }
 @media screen and (max-width: 479px) {
   #order .imgbox {
-    width: 450px;
+    width: 420px;
   }
   #order .textbox .btn {
     padding: 12px 45px;
@@ -859,19 +868,20 @@ header .menu .btn {
 }
 @media screen and (max-width: 767px) {
   #support .imgbox {
-    width: 535px;
+    width: 391px;
   }
   #support .box2 {
     margin: 0 0 10px 12px;
+    width: 391px;
   }
 }
 @media screen and (max-width: 479px) {
   #support .imgbox {
-    width: 455px;
+    width: 420px;
     height: 300px;
   }
   #support .box2 {
-    width: 455px;
+    width: 420px;
     margin: 0 0 0 12px;
     padding: 0 0 0 0;
   }

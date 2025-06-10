@@ -153,6 +153,11 @@ header .menu .btn {
     margin: 0 0 0 60px;
   }
 }
+@media screen and (max-width: 576px) {
+  #beautiful .imgbox {
+    width: 400px;
+  }
+}
 @media screen and (max-width: 479px) {
   #beautiful .box .textbox h1 {
     margin: 0 0 0 0;
@@ -258,6 +263,11 @@ header .menu .btn {
   #thehome .imgbox {
     width: 450px;
     margin: 0 0 0 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #thehome .imgbox {
+    width: 400px;
   }
 }
 @media screen and (max-width: 479px) {
@@ -731,7 +741,7 @@ header .menu .btn {
 }
 @media screen and (max-width: 391px) {
   #order .imgbox {
-    width: 380px;
+    width: 350px;
     margin: 0 20px 0 0;
   }
   #order .textbox {

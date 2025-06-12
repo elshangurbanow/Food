@@ -175,7 +175,7 @@ header .menu .btn {
     margin: 0 50px 0 0;
   }
   #beautiful .imgbox {
-    width: 330px;
+    width: 300px;
   }
 }
 @media screen and (max-width: 391px) {
@@ -273,14 +273,13 @@ header .menu .btn {
     margin: 0 0 0 0;
   }
   #thehome .textbox h5 {
-    width: 300px;
-    margin: 20px 0 30px 60px;
+    margin: 20px;
   }
   #thehome .textbox .btn {
     padding: 12px 50px;
   }
   #thehome .imgbox {
-    width: 320px;
+    width: 310px;
     margin: 0 0 0 60px;
   }
 }
@@ -510,7 +509,7 @@ header .menu .btn {
   }
   #browse .flexbtn .btn {
     padding: 15px 85px;
-    margin: 10px 20px 0 20px;
+    margin: 0 10px 0 0;
   }
   #browse .iphone {
     display: flex;
@@ -742,6 +741,7 @@ header .menu .btn {
   }
   #order .textbox {
     padding: 0 10px;
+    margin: 0 0 0 0;
   }
   #order .textbox h1 {
     font-size: 50px;
@@ -912,7 +912,7 @@ header .menu .btn {
 @media screen and (max-width: 391px) {
   #support .imgbox {
     width: 300px;
-    height: 240px;
+    height: 200px;
   }
   #support .box2 {
     width: 300px;

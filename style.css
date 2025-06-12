@@ -133,7 +133,6 @@ header .menu .btn {
     margin: 0 0 0 45px;
   }
   #beautiful .box .textbox h5 {
-    width: 430px;
     margin: 25px 0 50px 50px;
   }
   #beautiful .box .btn {
@@ -160,10 +159,11 @@ header .menu .btn {
 }
 @media screen and (max-width: 479px) {
   #beautiful .box .textbox h1 {
+    font-size: 45px;
     margin: 0 0 0 0;
   }
   #beautiful .box .textbox h5 {
-    margin: 25px 0 50px 25px;
+    margin: 25px 0 50px 10px;
   }
   #beautiful .box .textbox .btn {
     margin: 0 0 0 0;
@@ -184,13 +184,12 @@ header .menu .btn {
     margin: 0 0 40px 0;
   }
   #beautiful .box .textbox h1 {
-    font-size: 55px;
+    font-size: 40px;
     margin: 0 0;
   }
   #beautiful .box .textbox h5 {
-    width: 330px;
-    font-size: 20px;
-    margin: 20px 0 40px 10px;
+    font-size: 17px;
+    margin: 15px 0 25px 0;
   }
   #beautiful .box .minibox .imgbox {
     width: 100px;
@@ -201,7 +200,7 @@ header .menu .btn {
     margin: 10px 0 0 0;
   }
   #beautiful .imgbox {
-    width: 320px;
+    width: 270px;
     margin: 0 0 0 15px;
   }
 }
@@ -288,13 +287,11 @@ header .menu .btn {
 @media screen and (max-width: 391px) {
   #thehome .textbox h1 {
     font-size: 50px;
-    width: 350px;
     margin: 0 0;
   }
   #thehome .textbox h5 {
     font-size: 18px;
-    margin: 15px 0 35px 30px;
-    width: 300px;
+    margin: 15px 0 25px 0;
   }
   #thehome .textbox .btn {
     margin: 0 0 20px 0;
@@ -381,11 +378,11 @@ header .menu .btn {
   }
   #works .box .imgbox {
     margin: 0 70px 40px 0;
-    width: 350px;
+    width: 300px;
   }
   #works .box .textbox {
     width: 240px;
-    margin: 0 0 0 65px;
+    margin: 0 0 0 40px;
   }
   #works .box .textbox h2 {
     font-size: 23px;
@@ -588,12 +585,14 @@ header .menu .btn {
   }
   #browse .box {
     margin: 0 0 0 0;
+    width: 400px;
   }
   #browse .box .imgbox {
     width: 380px;
   }
   #browse .box .textbox {
-    margin-left: 10px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 50px;
     width: 420px;
   }
   #browse .box .add .btn {
@@ -605,14 +604,11 @@ header .menu .btn {
   }
 }
 @media screen and (max-width: 391px) {
-  #browse .textbox {
-    width: 280px;
-  }
   #browse .textbox h1 {
     font-size: 60px;
   }
   #browse .textbox h4 {
-    font-size: 20px;
+    font-size: 18px;
     width: 300px;
   }
   #browse .flexbtn {
@@ -631,17 +627,17 @@ header .menu .btn {
     color: white;
   }
   #browse .box {
-    width: 350px;
+    width: 300px;
     padding: 10px;
   }
   #browse .box .imgbox {
-    width: 320px;
+    width: 270px;
     height: auto;
   }
   #browse .box .textbox {
     width: 300px;
     padding: 0 0 0 0;
-    margin: 0 25px 0 0;
+    margin: 0 0 0 30px;
   }
   #browse .box .textbox .minibox {
     display: flex;
@@ -649,6 +645,9 @@ header .menu .btn {
   }
   #browse .box .textbox .minibox h2 {
     margin: 10px 0;
+  }
+  #browse .box .textbox p {
+    font-size: 13px;
   }
   #browse .box .textbox .add {
     display: flex;
@@ -738,7 +737,7 @@ header .menu .btn {
 }
 @media screen and (max-width: 391px) {
   #order .imgbox {
-    width: 350px;
+    width: 300px;
     margin: 0 20px 0 0;
   }
   #order .textbox {
@@ -837,7 +836,7 @@ header .menu .btn {
     padding: 13px 50px;
   }
   #callour .imgbox {
-    width: 350px;
+    width: 300px;
     margin: 0 0;
   }
 }
@@ -912,11 +911,11 @@ header .menu .btn {
 }
 @media screen and (max-width: 391px) {
   #support .imgbox {
-    width: 350px;
-    height: 270px;
+    width: 300px;
+    height: 240px;
   }
   #support .box2 {
-    width: 350px;
+    width: 300px;
     margin: 0 0 0 12px;
   }
   #support .textbox h1 {

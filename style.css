@@ -154,12 +154,6 @@ header .menu .btn {
   }
 }
 @media screen and (max-width: 576px) {
-  #beautiful .box .tetxbox h1 {
-    margin: 0 0 0 20px;
-  }
-  #beautiful .box .tetxbox h5 {
-    margin: 25px 0 50px 20px;
-  }
   #beautiful .imgbox {
     width: 400px;
   }
@@ -169,7 +163,6 @@ header .menu .btn {
     margin: 0 0 0 0;
   }
   #beautiful .box .textbox h5 {
-    width: 380px;
     margin: 25px 0 50px 25px;
   }
   #beautiful .box .textbox .btn {
@@ -220,7 +213,6 @@ header .menu .btn {
   color: #36b3bd;
   font-size: 60px;
   font-weight: 700;
-  width: 400px;
   margin-bottom: 25px;
 }
 #thehome .textbox h5 {
@@ -242,7 +234,7 @@ header .menu .btn {
 @media screen and (max-width: 991px) {
   #thehome .textbox {
     text-align: center;
-    margin-bottom: 50px;
+    margin: 0 0 50px 0;
   }
   #thehome .textbox h1 {
     margin-left: 70px;
@@ -278,6 +270,7 @@ header .menu .btn {
 }
 @media screen and (max-width: 479px) {
   #thehome .textbox h1 {
+    font-size: 50px;
     margin: 0 0 0 0;
   }
   #thehome .textbox h5 {
@@ -370,12 +363,12 @@ header .menu .btn {
     margin: 0 0 50px 0;
   }
   #works .box .imgbox {
-    width: 380px;
+    width: 350px;
     margin: 0 0 0 20px;
   }
   #works .box .textbox {
     width: 350px;
-    margin: 15px 0 0 50px;
+    margin: 15px 0 0 20px;
     padding: 0 0;
   }
 }
@@ -594,8 +587,7 @@ header .menu .btn {
     margin: 0 0 5px 0;
   }
   #browse .box {
-    width: 400px;
-    margin: 5px;
+    margin: 0 0 0 0;
   }
   #browse .box .imgbox {
     width: 380px;
@@ -641,7 +633,6 @@ header .menu .btn {
   #browse .box {
     width: 350px;
     padding: 10px;
-    margin: 10px 30px 10px 10px;
   }
   #browse .box .imgbox {
     width: 320px;
@@ -739,7 +730,7 @@ header .menu .btn {
 }
 @media screen and (max-width: 479px) {
   #order .imgbox {
-    width: 400px;
+    width: 380px;
   }
   #order .textbox .btn {
     padding: 12px 45px;

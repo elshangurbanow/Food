@@ -151,13 +151,8 @@ header .menu .btn {
     margin: 0 0 70px 50px;
   }
   #beautiful .imgbox {
-    width: 450px;
-    margin: 0 0 0 60px;
-  }
-}
-@media screen and (max-width: 576px) {
-  #beautiful .imgbox {
     width: 400px;
+    margin: 0 0 0 60px;
   }
 }
 @media screen and (max-width: 479px) {
@@ -259,13 +254,8 @@ header .menu .btn {
     margin: 0 0 0 20px;
   }
   #thehome .imgbox {
-    width: 450px;
+    width: 420px;
     margin: 0 0 0 40px;
-  }
-}
-@media screen and (max-width: 576px) {
-  #thehome .imgbox {
-    width: 400px;
   }
 }
 @media screen and (max-width: 479px) {
@@ -346,10 +336,10 @@ header .menu .btn {
 }
 @media screen and (max-width: 767px) {
   #works .box {
-    margin: 40px 0 40px 20px;
+    margin: 40px 0 40px 0;
   }
   #works .box .imgbox {
-    width: 400px;
+    width: 380px;
   }
   #works .box .textbox {
     margin: 35px 0 0 30px;
@@ -557,18 +547,6 @@ header .menu .btn {
     border-radius: 7px;
   }
 }
-@media screen and (max-width: 576px) {
-  #browse .box {
-    width: 470px;
-    margin: 0 0 20px 0;
-  }
-  #browse .box .imgbox {
-    width: 450px;
-  }
-  #browse .box .textbox {
-    padding: 0 30px 0 10px;
-  }
-}
 @media screen and (max-width: 479px) {
   #browse .textbox h1 {
     font-size: 60px;
@@ -582,6 +560,10 @@ header .menu .btn {
   }
   #browse .flexbtn .btn {
     margin: 0 0 5px 0;
+  }
+  #browse .align {
+    display: flex;
+    justify-content: center;
   }
   #browse .box {
     margin: 0 0 0 0;
@@ -638,7 +620,7 @@ header .menu .btn {
   }
   #browse .box .textbox {
     padding: 0 0 0 0;
-    margin: 0 0 0 30px;
+    margin: 0 0 0 10px;
   }
   #browse .box .textbox .minibox {
     display: flex;
@@ -715,7 +697,7 @@ header .menu .btn {
 }
 @media screen and (max-width: 767px) {
   #order .imgbox {
-    width: 480px;
+    width: 450px;
     margin: 0 90px 0 0;
   }
   #order .textbox {
@@ -723,7 +705,7 @@ header .menu .btn {
     margin: 0 0 0 0;
   }
   #order .textbox h1 {
-    font-size: 65px;
+    font-size: 60px;
   }
   #order .textbox h5 {
     font-size: 18px;
@@ -894,12 +876,12 @@ header .menu .btn {
 }
 @media screen and (max-width: 767px) {
   #support .imgbox {
-    width: 390px;
+    width: 478px;
     height: 300px;
   }
   #support .box2 {
     margin: 0 0 10px 12px;
-    width: 390px;
+    width: 478px;
   }
 }
 @media screen and (max-width: 479px) {
